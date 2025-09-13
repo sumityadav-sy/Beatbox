@@ -234,15 +234,16 @@ java BeatBox <server-ip> <port>
 
 ---
 
-## 📸 Screenshots 
+## 📸 Screenshots
 
- ![BeatBox UI](images/Screenshot 2025-09-05 232041.png) 
- ![BeatBox UI 2](images/Screenshot 2025-09-05 232024.png)
+![BeatBox UI](images/Screenshot%202025-09-05%20232041.png)
+![BeatBox UI 2](images/Screenshot%202025-09-05%20232024.png)
 *UI with 16×16 drum grid*
 
-![Server Console 1](images/Screenshot 2025-09-05 232339.png)
-![Server Console 2](images/Screenshot 2025-09-05 232106.png)
+![Server Console 1](images/Screenshot%202025-09-05%20232339.png)
+![Server Console 2](images/Screenshot%202025-09-05%20232106.png)
 *Server console showing connections*
+
 
 
 ## 📄 License
