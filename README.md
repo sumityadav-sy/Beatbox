@@ -1,5 +1,5 @@
 
-# 🎵 Cyber BeatBox (Java Swing + MIDI + java networking )
+#  Cyber BeatBox (Java Swing + MIDI + java networking )
 
 A **collaborative beatbox application** built in Java.
 Cyber BeatBox lets users create 16×16 drum patterns, control playback with MIDI, save/restore patterns, and even share them live with other users over a server.
@@ -8,21 +8,21 @@ Originally inspired by “Head First Java”, extended with networking, file han
 
 ---
 
-## 🚀 Features
+##  Features
 
-* 🎛 **16 instruments × 16 steps** (drum grid sequencer)
-* ▶️ Start / ⏹ Stop playback
-* ⏫ / ⏬ Adjust tempo (speed up or slow down)
-* 💾 Save & Restore patterns from files
-* 🔄 Reset grid in one click
-* 🌍 **Networking support**
+*  **16 instruments × 16 steps** (drum grid sequencer)
+*  Start /  Stop playback
+*  Adjust tempo (speed up or slow down)
+*  Save & Restore patterns from files
+*  Reset grid in one click
+*  **Networking support**
 
   * Run a central `MusicServer`
   * Multiple clients (`BeatBox`) can join, chat, and share their drum patterns in real time
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * **Java SE 17+**
 * **Swing** (GUI)
@@ -33,7 +33,7 @@ Originally inspired by “Head First Java”, extended with networking, file han
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 beatbox/
@@ -55,7 +55,7 @@ This project consists of two Java programs:
 
 
 
-## 🚀 Quick Start with Scripts
+##  Quick Start with Scripts
 
 Instead of typing commands, just use the provided scripts.
 
@@ -107,7 +107,7 @@ runClient.bat 192.168.1.50 5000
 
 
 
-#### 🚀 How to Run
+####  How to Run
 
 ### 1. **Clone the Repository**
 
@@ -165,7 +165,7 @@ java BeatBox <server-ip> <port>
 
 ---
 
-## 💡 Scenarios
+##  Scenarios
 
 ### **A. Localhost (Single Computer)**
 1. Open a terminal and start the server:
@@ -193,7 +193,7 @@ java BeatBox <server-ip> <port>
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - **Firewall:** Make sure the server's port is open on your firewall.
 - **Java Version:** Use Java 8 or higher.
@@ -201,7 +201,7 @@ java BeatBox <server-ip> <port>
 
 ---
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 - **"Connection refused" or "Timed out":**
   - Check server is running and listening on the correct port.
@@ -213,7 +213,7 @@ java BeatBox <server-ip> <port>
 
 
 
-## 🌍 Networking Scenarios
+##  Networking Scenarios
 
 * **Local test (single PC)**: Run server + 2+ clients on the same computer → use `localhost`.
 * **LAN (same Wi-Fi)**: Run server on one machine, clients connect using the server machine’s local IP (e.g. `192.168.x.x`).
@@ -234,7 +234,7 @@ java BeatBox <server-ip> <port>
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ![BeatBox UI](images/Screenshot%202025-09-05%20232041.png)
 ![BeatBox UI 2](images/Screenshot%202025-09-05%20232024.png)
@@ -246,7 +246,7 @@ java BeatBox <server-ip> <port>
 
 
 
-## 📄 License
+##  License
 
 MIT License © 2025 [Sumit Yadav]
 
